@@ -1,0 +1,13 @@
+#autocomplete-suggestions {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#autocomplete-suggestions div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#autocomplete-suggestions div:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Text Autocomplete Extension",
+    "version": "1.0",
+    "description": "AI-powered autocomplete for text fields on any website.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["autocomplete.css", "autocomplete.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+.ai-suggestion-box {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+  color: gray;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  opacity: 0.8;
+  max-width: 300px;
+  display: none;
+}
